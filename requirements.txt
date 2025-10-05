@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+torch
+Pillow
+requests
+transformers>=4.51.3
+git+https://github.com/huggingface/diffusers
