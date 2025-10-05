@@ -33,7 +33,6 @@ async def load_model():
     try:
         pipeline = QwenImageEditPlusPipeline.from_pretrained(
             model_id, 
-            dtype = torch.bfloat16, 
         )
         pipeline.set_progress_bar_config(disable=True)
         logging.info(f"Pipeline successfully loaded.")
