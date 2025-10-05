@@ -2,8 +2,6 @@ fastapi
 uvicorn
 pydantic
 accelerate
-torch
-torchvision
 Pillow
 requests
 transformers>=4.51.3
